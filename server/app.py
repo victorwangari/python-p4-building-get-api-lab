@@ -20,6 +20,7 @@ def index():
 
 @app.route('/bakeries')
 def bakeries():
+
     return ''
 
 @app.route('/bakeries/<int:id>')
